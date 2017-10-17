@@ -1,0 +1,24 @@
+{
+	"name": "coov.me",
+	"version": "0.0.1",
+	"description": "coov.me的websocket模块浏览器端",
+	"main": "index.js",
+	"scripts": {
+	  "test": "echo \"Error: no test specified\" && exit 1",
+	  "build": "babel ./ -d _build --ignore node_modules,public,temp,bin"
+	},
+	"keywords": [
+		"coov.me"
+	],
+	"author": "wu",
+	"license": "ISC",
+	"dependencies": {
+	},
+	"devDependencies": {
+	  "babel-cli": "^6.24.1",
+	  "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+	  "eslint": "^4.0.0",
+	  "eslint-config-google": "0.8.0"
+	}
+  }
+  
