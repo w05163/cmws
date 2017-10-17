@@ -1,5 +1,5 @@
 {
-	"name": "coov.me",
+	"name": "cmws",
 	"version": "0.0.1",
 	"description": "coov.me的websocket模块浏览器端",
 	"main": "index.js",
