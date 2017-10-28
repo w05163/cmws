@@ -95,7 +95,7 @@ class ws extends WebSocket {
 		return json.id;
 	}
 
-	sendRequest(data, opt) {
+	sendRequest(data, opt = {}) {
 		return new Promise((res, ret)=>{
 			const id = this.sendJson(data);
 			const timeId = setTimeout(()=>{
